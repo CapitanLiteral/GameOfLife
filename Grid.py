@@ -1,6 +1,6 @@
 import numpy as np
 import pygame
-from random import randrange
+from random import randrange, uniform
 
 class Grid(object):
 	def __init__(self, rows, cols, screen_w, screen_h, cells_n=0):
@@ -41,4 +41,8 @@ class Grid(object):
 					self.t_grid[x, y] = 1
 				else:
 					self.t_grid[x, y] = self.grid[x, y]
+				if self.t_grid[x, y] == 0:
+					revive = uniform(0, 1)
+					if revive >= 0.995:
+						self.t_grid[x, y] = 1
 		self.grid = self.t_grid
