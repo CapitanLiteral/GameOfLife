@@ -7,3 +7,17 @@
 /.idea/misc.xml
 /.idea/GameOfLife.iml
 /.idea/codeStyles/codeStyleConfig.xml
+/GameOfLife.spec
+/dist/GameOfLife.exe
+/build/GameOfLife/xref-GameOfLife.html
+/build/GameOfLife/warnGameOfLife.txt
+/build/GameOfLife/out00-PYZ.toc
+/build/GameOfLife/out00-PYZ.pyz
+/build/GameOfLife/out00-PKG.toc
+/build/GameOfLife/out00-PKG.pkg
+/build/GameOfLife/out00-EXE.toc
+/build/GameOfLife/out00-Analysis.toc
+/build/GameOfLife/GameOfLife.exe.manifest
+/build/GameOfLife/base_library.zip
+/__pycache__/GameOfLife.cpython-36.pyc
+/dist 0.1/GameOfLife.exe
